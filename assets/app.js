@@ -35,6 +35,10 @@ const ISLAM_APP = {
     return localStorage.getItem('islamapp_method') || '2'; // 2 = Muslim World League
   },
 
+  getReciter() {
+    return localStorage.getItem('islamapp_reciter') || 'ar.alafasy';
+  },
+
   async fetchPrayerTimes(lat, lon, date = new Date()) {
     const dateStr = this.formatDate(date);
     const method = this.getMethod();
