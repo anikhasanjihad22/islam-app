@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@400&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-secondary": "#3c2f00", "on-background": "#d4e7dd", "on-tertiary-fixed-variant": "#0b513d", "on-tertiary-fixed": "#002117", "primary-fixed-dim": "#4edea3", "on-error": "#690005", "inverse-on-surface": "#24342d", "on-secondary-container": "#342800", "on-tertiary-container": "#004231", "on-primary-fixed-variant": "#005236", "on-primary-container": "#00422b", "tertiary-fixed": "#b0f0d6", "secondary-container": "#af8d11", "tertiary": "#95d3ba", "outline": "#86948a", "primary-fixed": "#6ffbbe", "surface-container": "#13231c", "on-error-container": "#ffdad6", "outline-variant": "#3c4a42", "on-secondary-fixed": "#241a00", "tertiary-fixed-dim": "#95d3ba", "on-secondary-fixed-variant": "#574500", "surface-container-lowest": "#03110b", "surface-container-high": "#1d2d27", "secondary-fixed": "#ffe088", "background": "#071610", "surface": "#071610", "surface-tint": "#4edea3", "on-surface": "#d4e7dd", "secondary": "#e9c349", "surface-container-low": "#0f1f18", "surface-bright": "#2c3d36", "primary": "#4edea3", "error": "#ffb4ab", "secondary-fixed-dim": "#e9c349", "surface-container-highest": "#283831", "primary-container": "#10b981", "on-primary": "#003824", "inverse-primary": "#006c49", "inverse-surface": "#d4e7dd", "surface-variant": "#283831", "on-tertiary": "#003829", "surface-dim": "#071610", "on-surface-variant": "#bbcabf", "error-container": "#93000a", "on-primary-fixed": "#002113" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin-desktop": "40px", "gutter": "16px", "xs": "4px", "sm": "8px", "base": "8px", "lg": "24px", "margin-mobile": "20px", "md": "16px", "xl": "32px" }, "fontFamily": { "body-md": ["Inter"], "headline-sm": ["Inter"], "display-lg": ["Inter"], "headline-md": ["Inter"], "label-sm": ["Inter"], "body-lg": ["Inter"], "arabic-quran": ["Noto Serif"], "display-lg-mobile": ["Inter"] }, "fontSize": { "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "display-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }], "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "500" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "arabic-quran": ["28px", { "lineHeight": "56px", "fontWeight": "400" }], "display-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "700" }] } } } }</script><style>@layer base { body { @apply bg-surface text-on-surface font-body-md; -webkit-tap-highlight-color: transparent; overscroll-behavior-y: contain; } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; } .nav-active .material-symbols-outlined { font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24; } } ::-webkit-scrollbar { display: none; }</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="min-h-screen flex flex-col"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 flex items-center justify-between px-margin-mobile"><div class="flex items-center gap-sm"><img alt="Islam App Icon" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtFYGvN0tmIgzdMKAhqpBddvGSnGoyTYHBxSGkc5w-VSdUbMB6h-kVRRYbx3dxlWhzjR6mQaAA9dJ701ecx-snyjWj7dekvZvG2rj5NISqSDCAw1AX6lDD3umjKSShyhqynRY1bnKYRta8EvPc04Ky3lcemV92xpq0qHVC2PBhgSeCck-qDA1dzlSPicviqPdnZOYCgD6Qveq7kCUaJw0ZIZ0ZULOK0Jmw4PJUrxt9MkqVcw0RPuei"/><span class="font-headline-md text-headline-md tracking-tight">Islam</span></div><div class="flex items-center gap-md"><span class="font-headline-sm text-headline-sm text-on-surface-variant px-md">Duas</span><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-lg"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 pt-16 pb-24 bg-surface px-margin-mobile"><div class="flex flex-col w-full gap-lg">
+<div class="flex flex-col px-margin-mobile pt-sm pb-md gap-sm sticky top-16 bg-surface/95 backdrop-blur-md z-40">
+<div class="relative w-full group">
+<div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-on-surface-variant group-focus-within:text-primary transition-colors">search</span>
+</div>
+<input id="duaSearch" class="w-full bg-surface-container rounded-full py-3 pl-10 pr-4 font-body-md text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:ring-2 focus:ring-primary focus:bg-surface transition-all shadow-[inset_0_1px_3px_rgba(0,0,0,0.2)]" placeholder="Search Duas (e.g. Sleep, Travel)" type="text"/>
+<div class="absolute inset-y-0 right-0 pr-2 flex items-center">
+<button class="w-8 h-8 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary transition-colors bg-surface-container hover:bg-surface-container-high">
+<span class="material-symbols-outlined text-[20px]">mic</span>
+</button>
+</div>
+</div>
+</div>
+<div class="px-margin-mobile grid grid-cols-2 gap-md" id="duaCategoriesGrid">
+<a class="flex flex-col p-lg gap-md rounded-2xl bg-surface-container hover:bg-surface-container-high transition-colors shadow-sm active:scale-95 duration-200 ease-out group relative overflow-hidden" href="#" data-category="morning_evening" onclick="return showCategory('morning_evening', event)"">
+<div class="absolute -right-4 -top-4 w-16 h-16 bg-primary/10 rounded-full blur-xl group-hover:bg-primary/20 transition-colors"></div>
+<div class="w-12 h-12 rounded-full bg-surface-container-high group-hover:bg-primary/10 flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-secondary text-[28px]">wb_twilight</span>
+</div>
+<div class="flex flex-col gap-xs">
+<h3 class="font-headline-sm text-on-surface">Morning & Evening</h3>
+<p class="font-label-sm text-on-surface-variant">24 Duas</p>
+</div>
+</a>
+<a class="flex flex-col p-lg gap-md rounded-2xl bg-surface-container hover:bg-surface-container-high transition-colors shadow-sm active:scale-95 duration-200 ease-out group relative overflow-hidden" href="#" data-category="prayer" onclick="return showCategory('prayer', event)"">
+<div class="absolute -right-4 -top-4 w-16 h-16 bg-primary/10 rounded-full blur-xl group-hover:bg-primary/20 transition-colors"></div>
+<div class="w-12 h-12 rounded-full bg-surface-container-high group-hover:bg-primary/10 flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-secondary text-[28px]">mosque</span>
+</div>
+<div class="flex flex-col gap-xs">
+<h3 class="font-headline-sm text-on-surface">Prayer</h3>
+<p class="font-label-sm text-on-surface-variant">18 Duas</p>
+</div>
+</a>
+<a class="flex flex-col p-lg gap-md rounded-2xl bg-surface-container hover:bg-surface-container-high transition-colors shadow-sm active:scale-95 duration-200 ease-out group relative overflow-hidden" href="#" data-category="sleep" onclick="return showCategory('sleep', event)"">
+<div class="absolute -right-4 -top-4 w-16 h-16 bg-primary/10 rounded-full blur-xl group-hover:bg-primary/20 transition-colors"></div>
+<div class="w-12 h-12 rounded-full bg-surface-container-high group-hover:bg-primary/10 flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-secondary text-[28px]">bedtime</span>
+</div>
+<div class="flex flex-col gap-xs">
+<h3 class="font-headline-sm text-on-surface">Sleep</h3>
+<p class="font-label-sm text-on-surface-variant">12 Duas</p>
+</div>
+</a>
+<a class="flex flex-col p-lg gap-md rounded-2xl bg-surface-container hover:bg-surface-container-high transition-colors shadow-sm active:scale-95 duration-200 ease-out group relative overflow-hidden" href="#" data-category="food" onclick="return showCategory('food', event)"">
+<div class="absolute -right-4 -top-4 w-16 h-16 bg-primary/10 rounded-full blur-xl group-hover:bg-primary/20 transition-colors"></div>
+<div class="w-12 h-12 rounded-full bg-surface-container-high group-hover:bg-primary/10 flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-secondary text-[28px]">restaurant</span>
+</div>
+<div class="flex flex-col gap-xs">
+<h3 class="font-headline-sm text-on-surface">Food & Drink</h3>
+<p class="font-label-sm text-on-surface-variant">15 Duas</p>
+</div>
+</a>
+<a class="flex flex-col p-lg gap-md rounded-2xl bg-surface-container hover:bg-surface-container-high transition-colors shadow-sm active:scale-95 duration-200 ease-out group relative overflow-hidden" href="#" data-category="travel" onclick="return showCategory('travel', event)"">
+<div class="absolute -right-4 -top-4 w-16 h-16 bg-primary/10 rounded-full blur-xl group-hover:bg-primary/20 transition-colors"></div>
+<div class="w-12 h-12 rounded-full bg-surface-container-high group-hover:bg-primary/10 flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-secondary text-[28px]">flight_takeoff</span>
+</div>
+<div class="flex flex-col gap-xs">
+<h3 class="font-headline-sm text-on-surface">Travel</h3>
+<p class="font-label-sm text-on-surface-variant">8 Duas</p>
+</div>
+</a>
+<a class="flex flex-col p-lg gap-md rounded-2xl bg-surface-container hover:bg-surface-container-high transition-colors shadow-sm active:scale-95 duration-200 ease-out group relative overflow-hidden" href="#" data-category="protection" onclick="return showCategory('protection', event)"">
+<div class="absolute -right-4 -top-4 w-16 h-16 bg-primary/10 rounded-full blur-xl group-hover:bg-primary/20 transition-colors"></div>
+<div class="w-12 h-12 rounded-full bg-surface-container-high group-hover:bg-primary/10 flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-secondary text-[28px]">shield</span>
+</div>
+<div class="flex flex-col gap-xs">
+<h3 class="font-headline-sm text-on-surface">Protection</h3>
+<p class="font-label-sm text-on-surface-variant">22 Duas</p>
+</div>
+</a>
+<a class="flex flex-col p-lg gap-md rounded-2xl bg-surface-container hover:bg-surface-container-high transition-colors shadow-sm active:scale-95 duration-200 ease-out group relative overflow-hidden" href="#" data-category="forgiveness" onclick="return showCategory('forgiveness', event)"">
+<div class="absolute -right-4 -top-4 w-16 h-16 bg-primary/10 rounded-full blur-xl group-hover:bg-primary/20 transition-colors"></div>
+<div class="w-12 h-12 rounded-full bg-surface-container-high group-hover:bg-primary/10 flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-secondary text-[28px]">clean_hands</span>
+</div>
+<div class="flex flex-col gap-xs">
+<h3 class="font-headline-sm text-on-surface">Forgiveness</h3>
+<p class="font-label-sm text-on-surface-variant">30 Duas</p>
+</div>
+</a>
+<a class="flex flex-col p-lg gap-md rounded-2xl bg-surface-container hover:bg-surface-container-high transition-colors shadow-sm active:scale-95 duration-200 ease-out group relative overflow-hidden" href="#" data-category="family" onclick="return showCategory('family', event)"">
+<div class="absolute -right-4 -top-4 w-16 h-16 bg-primary/10 rounded-full blur-xl group-hover:bg-primary/20 transition-colors"></div>
+<div class="w-12 h-12 rounded-full bg-surface-container-high group-hover:bg-primary/10 flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-secondary text-[28px]">family_restroom</span>
+</div>
+<div class="flex flex-col gap-xs">
+<h3 class="font-headline-sm text-on-surface">Family</h3>
+<p class="font-label-sm text-on-surface-variant">14 Duas</p>
+</div>
+</a>
+<a class="flex flex-col p-lg gap-md rounded-2xl bg-surface-container hover:bg-surface-container-high transition-colors shadow-sm active:scale-95 duration-200 ease-out group relative overflow-hidden" href="#" data-category="knowledge" onclick="return showCategory('knowledge', event)"">
+<div class="absolute -right-4 -top-4 w-16 h-16 bg-primary/10 rounded-full blur-xl group-hover:bg-primary/20 transition-colors"></div>
+<div class="w-12 h-12 rounded-full bg-surface-container-high group-hover:bg-primary/10 flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-secondary text-[28px]">school</span>
+</div>
+<div class="flex flex-col gap-xs">
+<h3 class="font-headline-sm text-on-surface">Knowledge</h3>
+<p class="font-label-sm text-on-surface-variant">9 Duas</p>
+</div>
+</a>
+<a class="flex flex-col p-lg gap-md rounded-2xl bg-surface-container hover:bg-surface-container-high transition-colors shadow-sm active:scale-95 duration-200 ease-out group relative overflow-hidden" href="#" data-category="daily_life" onclick="return showCategory('daily_life', event)"">
+<div class="absolute -right-4 -top-4 w-16 h-16 bg-primary/10 rounded-full blur-xl group-hover:bg-primary/20 transition-colors"></div>
+<div class="w-12 h-12 rounded-full bg-surface-container-high group-hover:bg-primary/10 flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-secondary text-[28px]">routine</span>
+</div>
+<div class="flex flex-col gap-xs">
+<h3 class="font-headline-sm text-on-surface">Daily Life</h3>
+<p class="font-label-sm text-on-surface-variant">45 Duas</p>
+</div>
+</a>
+</div>
+<div class="px-margin-mobile flex flex-col gap-md" id="duaResultsWrap" style="display:none;">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface" id="duaResultsTitle">Results</h3>
+<button class="font-label-sm text-label-sm text-primary" onclick="clearDuaResults()">Back to categories</button>
+</div>
+<div class="flex flex-col gap-md" id="duaResults"></div>
+</div>
+</div></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/80 backdrop-blur-xl" data-active-classes="text-secondary nav-active"><div class="h-20 flex justify-between items-center px-4"><a class="flex flex-col items-center justify-center flex-1 gap-xs text-on-surface-variant transition-colors" data-path="home" href="../home_dashboard/"><span class="material-symbols-outlined">home</span><span class="font-label-sm text-label-sm">Home</span></a><a class="flex flex-col items-center justify-center flex-1 gap-xs text-on-surface-variant transition-colors" data-path="quran" href="../quran_reader/"><span class="material-symbols-outlined">menu_book</span><span class="font-label-sm text-label-sm">Quran</span></a><a aria-current="page" class="flex flex-col items-center justify-center flex-1 gap-xs transition-colors text-secondary nav-active" data-path="duas" href="../duas_library/"><span class="material-symbols-outlined">folded_hands</span><span class="font-label-sm text-label-sm">Duas</span></a><a class="flex flex-col items-center justify-center flex-1 gap-xs text-on-surface-variant transition-colors" data-path="prayer" href="../prayer_times/"><span class="material-symbols-outlined">schedule</span><span class="font-label-sm text-label-sm">Prayer</span></a><a class="flex flex-col items-center justify-center flex-1 gap-xs text-on-surface-variant transition-colors" data-path="more" href="../settings/"><span class="material-symbols-outlined">more_horiz</span><span class="font-label-sm text-label-sm">More</span></a></div><div class="absolute bottom-safe left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-secondary hidden active-dot"></div></nav>
+<script>
+const DUAS = [
+  { cat: 'morning_evening', title: 'Morning Remembrance', arabic: 'أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ', translation: 'We have entered a new day and with it all dominion belongs to Allah.', tags: ['morning', 'evening', 'remembrance'] },
+  { cat: 'morning_evening', title: 'Evening Remembrance', arabic: 'أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ', translation: 'We have entered the evening and with it all dominion belongs to Allah.', tags: ['evening', 'remembrance'] },
+  { cat: 'prayer', title: 'Before Salah (Opening)', arabic: 'سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ', translation: 'Glory be to You, O Allah, and praise be to You.', tags: ['prayer', 'salah', 'opening'] },
+  { cat: 'prayer', title: 'After Salah', arabic: 'أَسْتَغْفِرُ اللَّهَ', translation: 'I seek forgiveness from Allah. (repeated 3 times after prayer)', tags: ['prayer', 'salah'] },
+  { cat: 'sleep', title: 'Before Sleeping', arabic: 'بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا', translation: 'In Your name, O Allah, I die and I live.', tags: ['sleep', 'night'] },
+  { cat: 'sleep', title: 'Upon Waking', arabic: 'الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ', translation: 'Praise be to Allah who gave us life after having taken it from us, and unto Him is the resurrection.', tags: ['sleep', 'waking'] },
+  { cat: 'food', title: 'Before Eating', arabic: 'بِسْمِ اللَّهِ', translation: 'In the name of Allah.', tags: ['food', 'eating'] },
+  { cat: 'food', title: 'After Eating', arabic: 'الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنِي هَذَا', translation: 'Praise be to Allah who fed me this and provided it for me without any might nor power from myself.', tags: ['food', 'eating'] },
+  { cat: 'travel', title: 'Dua for Travel', arabic: 'سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ', translation: 'Glory be to Him who has subjected this to us, and we could never have accomplished it by ourselves.', tags: ['travel', 'journey'] },
+  { cat: 'protection', title: 'Protection Morning & Evening', arabic: 'أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ', translation: 'I seek refuge in the perfect words of Allah from the evil of what He has created.', tags: ['protection', 'refuge'] },
+  { cat: 'forgiveness', title: 'Seeking Forgiveness (Sayyidul Istighfar)', arabic: 'اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَٰهَ إِلَّا أَنْتَ', translation: 'O Allah, You are my Lord, there is no god but You. (the master of seeking forgiveness)', tags: ['forgiveness', 'repentance'] },
+  { cat: 'family', title: 'For Parents', arabic: 'رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا', translation: 'My Lord, have mercy upon them as they brought me up when I was small.', tags: ['family', 'parents'] },
+  { cat: 'knowledge', title: 'Increase in Knowledge', arabic: 'رَبِّ زِدْنِي عِلْمًا', translation: 'My Lord, increase me in knowledge.', tags: ['knowledge', 'study'] },
+  { cat: 'daily_life', title: 'Entering the Home', arabic: 'بِسْمِ اللَّهِ وَلَجْنَا وَبِسْمِ اللَّهِ خَرَجْنَا', translation: 'In the name of Allah we enter and in the name of Allah we leave.', tags: ['home', 'daily'] },
+  { cat: 'daily_life', title: 'Leaving the Home', arabic: 'بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ', translation: 'In the name of Allah, I place my trust in Allah.', tags: ['home', 'daily'] },
+];
+
+function renderDuas(list, title) {
+  document.getElementById('duaCategoriesGrid').style.display = 'none';
+  const wrap = document.getElementById('duaResultsWrap');
+  wrap.style.display = 'flex';
+  document.getElementById('duaResultsTitle').textContent = title;
+  const container = document.getElementById('duaResults');
+  container.innerHTML = list.map(d => `
+    <div class="bg-surface-container rounded-[16px] p-md border border-white/5 shadow-sm flex flex-col gap-sm">
+      <h4 class="font-headline-sm text-headline-sm text-on-surface">${d.title}</h4>
+      <p class="font-arabic-quran text-arabic-quran text-primary text-right leading-loose" dir="rtl">${d.arabic}</p>
+      <p class="font-body-md text-body-md text-on-surface-variant">${d.translation}</p>
+    </div>
+  `).join('') || '<p class="font-body-md text-on-surface-variant px-margin-mobile">No duas found.</p>';
+}
+
+function showCategory(cat, evt) {
+  if (evt) evt.preventDefault();
+  const list = DUAS.filter(d => d.cat === cat);
+  renderDuas(list, cat.replace('_', ' ').replace(/\b\w/g, c => c.toUpperCase()));
+  return false;
+}
+
+function clearDuaResults() {
+  document.getElementById('duaCategoriesGrid').style.display = 'grid';
+  document.getElementById('duaResultsWrap').style.display = 'none';
+  document.getElementById('duaSearch').value = '';
+}
+
+document.getElementById('duaSearch').addEventListener('input', (e) => {
+  const term = e.target.value.trim().toLowerCase();
+  if (!term) { clearDuaResults(); return; }
+  const list = DUAS.filter(d =>
+    d.title.toLowerCase().includes(term) ||
+    d.translation.toLowerCase().includes(term) ||
+    d.tags.some(t => t.includes(term))
+  );
+  renderDuas(list, `Search: "${e.target.value}"`);
+});
+</script>
+</body></html>
